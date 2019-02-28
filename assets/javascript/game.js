@@ -6,4 +6,9 @@ var winsText = document.getElementById("wins-text")
 var lossesText = document.getElementById("losses-text")
 // Number To Guess gets shown from this:
 numberToGuessText.textContent= "Number To Guess: " + numberToGuess;
+// Wins:
+winsText.textContent= "Wins: " + wins;
+// Losses:
+lossesText.textContent= "Losses: " + losses;
+
 
