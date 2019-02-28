@@ -1,0 +1,28 @@
+.fixed-bottom{
+    text-align: center;
+}
+.main-wrapper{
+    text-align: center;
+}
+.container1{
+    border-style: solid;
+  border-width: 5px;
+  border-color: aliceblue;
+}
+.container3{
+    text-align: center;
+    border-style: solid;
+  border-width: 5px;
+  border-color: aliceblue;
+  width: 50%;
+  display: inline-block;
+  
+}
+
+h1,h2{
+    color: aliceblue;
+}
+
+body{
+    background-color:black;
+}
