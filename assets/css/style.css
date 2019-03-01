@@ -26,3 +26,9 @@ h1,h3,h4{
 body{
     background-color:black;
 }
+.fa-gamepad {
+    color: aliceblue;
+}
+nav {
+    color: aliceblue;
+}
