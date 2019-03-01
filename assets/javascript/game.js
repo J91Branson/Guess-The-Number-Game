@@ -24,6 +24,8 @@ function reset() {
     numberToGuessText.text("Number To Guess: " + numberToGuess);
     currentPointsText.text("Current Points: " + currentPoints);
     currentPoints = 0;
+    winsText.text("Wins: " + wins);
+    lossesText.text("Losses: " + losses);
     buttonNumber1 = Math.floor(Math.random()*12) + 1;
     buttonNumber2 = Math.floor(Math.random()*12) + 1;
     buttonNumber3 = Math.floor(Math.random()*12) + 1;
@@ -51,7 +53,7 @@ function winLose() {
     else if (currentPoints >= numberToGuess) {
         alert("You Lose!");
         losses++;
-        reset();
+        reset();        
         console.log(numberToGuess);
     }
 }
