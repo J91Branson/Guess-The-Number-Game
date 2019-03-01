@@ -57,3 +57,69 @@ function winLose() {
         console.log(numberToGuess);
     }
 }
+
+$("#button2").on("click", function () {
+    currentPoints += buttonNumber2;
+    winLose();
+    $("#current-points-text").text("Current Points: " + currentPoints);
+});
+
+
+function winLose() {
+    if (currentPoints === numberToGuess) {
+        alert("You Win!");
+        wins++;
+        reset();
+        console.log(numberToGuess);
+    }
+    else if (currentPoints >= numberToGuess) {
+        alert("You Lose!");
+        losses++;
+        reset();        
+        console.log(numberToGuess);
+    }
+}
+
+$("#button3").on("click", function () {
+    currentPoints += buttonNumber3;
+    winLose();
+    $("#current-points-text").text("Current Points: " + currentPoints);
+});
+
+
+function winLose() {
+    if (currentPoints === numberToGuess) {
+        alert("You Win!");
+        wins++;
+        reset();
+        console.log(numberToGuess);
+    }
+    else if (currentPoints >= numberToGuess) {
+        alert("You Lose!");
+        losses++;
+        reset();        
+        console.log(numberToGuess);
+    }
+}
+
+$("#button4").on("click", function () {
+    currentPoints += buttonNumber4;
+    winLose();
+    $("#current-points-text").text("Current Points: " + currentPoints);
+});
+
+
+function winLose() {
+    if (currentPoints === numberToGuess) {
+        alert("You Win!");
+        wins++;
+        reset();
+        console.log(numberToGuess);
+    }
+    else if (currentPoints >= numberToGuess) {
+        alert("You Lose!");
+        losses++;
+        reset();        
+        console.log(numberToGuess);
+    }
+}
